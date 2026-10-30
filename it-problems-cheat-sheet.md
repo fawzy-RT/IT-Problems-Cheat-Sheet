@@ -33,7 +33,6 @@ ping 8.8.8.8
 nslookup google.com
 ```
 
-<img width="1920" height="937" alt="slow-pc-task-manager" src="https://github.com/user-attachments/assets/89f28b3c-c0f2-4c65-8e5a-af26944d6162" />
 <img width="1174" height="767" alt="ipconfig-all" src="https://github.com/user-attachments/assets/b6f91961-8eee-4ca4-ab18-ef2a20b3ffe6" />
 
 
