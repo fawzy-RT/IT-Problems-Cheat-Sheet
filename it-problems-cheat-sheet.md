@@ -33,7 +33,9 @@ ping 8.8.8.8
 nslookup google.com
 ```
 
-![ipconfig /all output example](screenshots/no-internet-ipconfig.png)
+<img width="1920" height="937" alt="slow-pc-task-manager" src="https://github.com/user-attachments/assets/89f28b3c-c0f2-4c65-8e5a-af26944d6162" />
+<img width="1174" height="767" alt="ipconfig-all" src="https://github.com/user-attachments/assets/b6f91961-8eee-4ca4-ab18-ef2a20b3ffe6" />
+
 
 **Solution**:
 - IP starts with `169.254` → DHCP failed → `ipconfig /release` then `ipconfig /renew`
@@ -97,7 +99,8 @@ taskmgr                    :: Ctrl+Shift+Esc — check CPU/Memory/Disk
 perfmon /rel               :: Reliability Monitor — see crashes/installs timeline
 ```
 
-![Task Manager showing CPU, Memory, and Disk usage](screenshots/slow-pc-task-manager.png)
+<img width="1920" height="937" alt="slow-pc-task-manager" src="https://github.com/user-attachments/assets/2702fa13-bdf6-4a32-ad4b-60861ac4614c" />
+
 
 **Solution**:
 - 90%+ resource usage → kill or update that process
@@ -230,8 +233,6 @@ del /Q /F /S "%systemroot%\System32\Spool\Printers\*.*"
 net start spooler
 ```
 
-![Print queue with a stuck job](screenshots/print-job-stuck-queue.png)
-
 - Reinstall driver if recurring
 
 ⚠️ Don't manually delete spool files on shared print servers — affects other users.
@@ -248,7 +249,7 @@ perfmon /rel               :: Reliability Monitor — see crash timeline
 eventvwr.msc               :: Event Viewer → Windows Logs → Application
 ```
 
-![Event Viewer showing an application error](screenshots/application-crash-event-viewer.png)
+<img width="1920" height="937" alt="application-crash-event-viewer" src="https://github.com/user-attachments/assets/b545224c-1105-4ac9-bed7-f4b7b2b36fea" />
 
 **Solution**:
 - Note: which app, what action caused crash, error message
@@ -278,7 +279,7 @@ eventvwr.msc               :: Event Viewer → Windows Logs → Application
 devmgmt.msc                :: Device Manager
 ```
 
-![Device Manager](screenshots/device-driver-problem.png)
+<img width="1920" height="937" alt="device-driver-problem" src="https://github.com/user-attachments/assets/6ccf7d5c-de44-4c1a-82c3-0dc1e19ea865" />
 
 - Right-click device → Properties → check status + error code
 - Update driver from Windows Update or manufacturer website
